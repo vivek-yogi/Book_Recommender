@@ -1,11 +1,15 @@
 numpy
 pandas
 nltk
-#pickle
+ensure==1.0.2
 scikit-learn
-#ast
-#os
+pyYAML
+types-PyYAML
+tqdm
+joblib
+python-box == 6.0.2
 Flask
 streamlit
 scipy
+Flask-Cors
 -e .
