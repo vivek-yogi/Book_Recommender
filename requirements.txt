@@ -1,0 +1,11 @@
+numpy
+pandas
+nltk
+#pickle
+scikit-learn
+#ast
+#os
+Flask
+streamlit
+scipy
+-e .
