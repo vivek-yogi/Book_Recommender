@@ -1,0 +1,1 @@
+from Book_recommend.components.data_ingestion import DataIngestion

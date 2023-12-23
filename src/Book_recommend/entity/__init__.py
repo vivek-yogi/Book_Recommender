@@ -1,0 +1,1 @@
+from Book_recommend.entity.config_entity import (DataIngestionConfig)
