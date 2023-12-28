@@ -7,3 +7,9 @@ class DataIngestionConfig:
     source_URL     :str
     local_data_file:Path
     unzip_dir      :Path
+
+@dataclass(frozen=True)
+class DataLoadingConfig:
+    books_csv_file       :Path
+    ratings_csv_file     :Path
+    users_csv_file       :Path

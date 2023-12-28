@@ -2,7 +2,7 @@ from Book_recommend.constants import *
 from Book_recommend.utils import create_directories,read_yaml
 from pathlib import Path
 import os
-from Book_recommend.entity import (DataIngestionConfig)
+from Book_recommend.entity import (DataIngestionConfig,DataLoadingConfig)
 
 
 class ConfigurationManager:
@@ -26,3 +26,9 @@ class ConfigurationManager:
                         unzip_dir      = config.unzip_dir
                 )
                 return data_ingestion_config  
+        
+        
+        
+       
+               
+                

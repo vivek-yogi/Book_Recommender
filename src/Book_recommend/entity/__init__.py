@@ -1,1 +1,1 @@
-from Book_recommend.entity.config_entity import (DataIngestionConfig)
+from Book_recommend.entity.config_entity import (DataIngestionConfig,DataLoadingConfig)
